@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nsight.Core", "Nsight.Core\Nsight.Core.csproj", "{39632486-0E93-4685-B5C3-D1FA3A4AA0F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nsight.Core.Tests", "Nsight.Core.Tests\Nsight.Core.Tests.csproj", "{0D80119A-D14E-4671-9142-E0F54CB444EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{44897C02-33DB-40C6-8B63-ABE788F136D9}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39632486-0E93-4685-B5C3-D1FA3A4AA0F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39632486-0E93-4685-B5C3-D1FA3A4AA0F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39632486-0E93-4685-B5C3-D1FA3A4AA0F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39632486-0E93-4685-B5C3-D1FA3A4AA0F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D80119A-D14E-4671-9142-E0F54CB444EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D80119A-D14E-4671-9142-E0F54CB444EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D80119A-D14E-4671-9142-E0F54CB444EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D80119A-D14E-4671-9142-E0F54CB444EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
